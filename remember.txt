@@ -1,0 +1,18 @@
+const BootstrapButton = styled(Button)({
+  color: "green",
+});
+const SuccessSlider = styled(Button)(({ theme }) => ({
+  ...theme.myButton,
+}))
+
+
+// درون theme
+components: {
+        MuiButton: {
+          styleOverrides: {
+            root: {
+              fontSize: '4rem',
+            },
+          },
+        },
+      },
