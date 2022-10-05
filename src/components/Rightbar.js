@@ -1,6 +1,6 @@
 
 
-import { Box, Typography } from "@mui/material";
+import { Box, Container, Typography } from "@mui/material";
 import { useTheme } from "@mui/material/styles";
 import HomeIcon from "@mui/icons-material/Home";
 import PersonIcon from "@mui/icons-material/Person";
@@ -26,13 +26,16 @@ function Rightbar() {
     display: "flex",
     alignItems: "center",
     mb: theme.spacing(3),
+   
     cursor: "Pointer",
   };
   const styleItmeText = { display: { xs: "none", md: "block" } ,mr:theme.spacing(2)};
   return (
-    <Box
+    <Container
       sx={{
-        p: theme.spacing(2),
+        pt: theme.spacing(10),
+        position:'sticky',
+        top:'0',
         backgroundColor: {
           xs: theme.palette.sidebar.main,
           md: theme.palette.bgmain.main,
@@ -49,7 +52,7 @@ function Rightbar() {
           </Box>
         );
       })}
-    </Box>
+    </Container>
   );
 }
 
