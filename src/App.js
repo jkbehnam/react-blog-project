@@ -3,7 +3,6 @@ import Navbar from "./components/NavBar";
 import Rightbar from "./components/Rightbar";
 import Feed from "./components/Feed";
 import Leftbar from "./components/Leftbar";
-import Add from './components/Add'
 function App() {
   return (
     <div>
@@ -20,7 +19,7 @@ function App() {
           <Leftbar />
         </Grid>
       </Grid>
-      <Add/>
+      
     </div>
   );
 }
