@@ -35,6 +35,7 @@ function Rightbar() {
       sx={{
         pt: theme.spacing(10),
         position:'sticky',
+        overflow:'auto',
         top:'0',
         backgroundColor: {
           xs: theme.palette.sidebar.main,
