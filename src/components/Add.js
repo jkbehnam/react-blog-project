@@ -1,7 +1,7 @@
 import { Container } from "@mui/system";
 import { useState } from "react";
 import * as React from "react";
-import { useTheme, createTheme, ThemeProvider } from "@mui/material/styles";
+import { createTheme, ThemeProvider } from "@mui/material/styles";
 import {
   Fab,
   MenuItem,
@@ -26,7 +26,7 @@ import MuiAlert from "@mui/material/Alert";
 function Add() {
   const [open, setOpen] = useState(false);
   const [openSnack, setOpenSnack] = useState(false);
-  const theme = useTheme();
+
   const styleItem = { width: "100%", mb: 2 };
   const theme2 = createTheme({
     direction: "rtl", // Both here and <body dir="rtl">

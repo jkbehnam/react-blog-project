@@ -3,14 +3,13 @@ import {
   AvatarGroup,
   Box,
   Container,
-  Divider,
   ImageList,
   ImageListItem,
   Link,
   Typography,
 } from "@mui/material";
 import { useTheme } from "@mui/material/styles";
-import { display } from "@mui/system";
+
 const styleAvatar = {
   display: "flex",
   justifyContent: "right",
