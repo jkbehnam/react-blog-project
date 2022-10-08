@@ -1,20 +1,14 @@
 import { Container } from "@mui/system";
 import { useTheme } from "@mui/material/styles";
-import Post from "./Post";
-import Add from '../components/Add'
 
-function Feed() {
+
+function Photos() {
   const theme=useTheme()
   return (
     <Container sx={{pt:theme.spacing(9) }}>
-      <Post/>
-      <Post/>
-      <Post/>
-      <Post/>
-      <Post/>
-      <Add/>
+    <div>عکس ها</div>
     </Container>
   );
 }
 
-export default Feed;
+export default Photos;
