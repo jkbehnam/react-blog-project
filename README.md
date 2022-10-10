@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-I use Material ui for ui design
+you can see [live demo](https://bhenam-react-blog.netlify.app/).
+I used Material ui for ui design
 ![full screen react project](https://i.ibb.co/vVPPQD0/Capture.png)
 ![mobile version react project](https://i.ibb.co/Qf08MmW/Capture2.png)
 ## Available Scripts
