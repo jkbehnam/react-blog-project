@@ -1,6 +1,6 @@
 # reactjs project with MUIv5
 
-you can see [live demo](https://bhenam-react-blog.netlify.app/).
+you can see [live demo](https://behnam-react-blog.netlify.app/).
 I used Material ui for ui design
 ![full screen react project](https://i.ibb.co/vVPPQD0/Capture.png)
 ![mobile version react project](https://i.ibb.co/Qf08MmW/Capture2.png)
