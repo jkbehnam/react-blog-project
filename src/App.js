@@ -19,13 +19,11 @@ function App() {
   return (
     <div>
       <Navbar />
-
       <Grid container>
         <Grid item sm={2} xs={2}>
           <Rightbar />
         </Grid>
         <Grid item sm={7} xs={10}>
-          
           <Routes>
             <Route path="/" element={<Feed />} />
             <Route path="/charts" element={<Charts />} />

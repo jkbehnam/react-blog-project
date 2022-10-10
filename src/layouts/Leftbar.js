@@ -90,17 +90,12 @@ function Leftbar() {
       sx={{
         pt: theme.spacing(10),
         position: "sticky",
-        overflow:'auto',
+        overflow: "auto",
         top: "0",
-        backgroundColor: {
-          xs: theme.palette.sidebar.main,
-          md: theme.palette.bgmain.main,
-        },
+        backgroundColor: theme.palette.bgmain.main,
+
         height: "100vh",
-        color: {
-          xs: theme.palette.secondaryText.main,
-          md: theme.palette.primaryText.main,
-        },
+        color: theme.palette.primaryText.main,
       }}
     >
       <Typography gutterBottom>دوستان</Typography>
@@ -153,15 +148,29 @@ function Leftbar() {
       <Typography gutterBottom sx={{ mt: 2 }}>
         دسته بندی ها
       </Typography>
-      <Box sx={{ display: "flex", flexWrap: "wrap" ,justifyContent:'space-evenly'}}>
-        {items.map((item)=>{
-return ( <Box sx={{display:'flex'}}><Link sx={{ml:1}} component="button" variant="h5" underline="hover" href="#">
-{item}
-</Link>
-{/* <Divider sx={{mr:1}} orientation="vertical"/> */}
-</Box>)
+      <Box
+        sx={{
+          display: "flex",
+          flexWrap: "wrap",
+          justifyContent: "space-evenly",
+        }}
+      >
+        {items.map((item) => {
+          return (
+            <Box sx={{ display: "flex" }}>
+              <Link
+                sx={{ ml: 1 }}
+                component="button"
+                variant="h5"
+                underline="hover"
+                href="#"
+              >
+                {item}
+              </Link>
+              {/* <Divider sx={{mr:1}} orientation="vertical"/> */}
+            </Box>
+          );
         })}
-       
       </Box>
     </Container>
   );
